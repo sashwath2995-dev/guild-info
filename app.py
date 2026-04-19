@@ -27,11 +27,11 @@ def get_region_credentials(region):
     if r == "IND":
         return "uid={4716560800}&password={UNCOMMON-ILFQXBQSW-CORE}"
     elif r == "BD":
-        return "uid={}&password={}" #Add
+        return "uid={4733007561}&password={xMaSrY_IjgATLMn_TpC}" #Added
     elif r in {"BR", "US", "SAC", "NA"}:
-        return "uid={4732996039}&password={BP_02BO6SU8K59}" #Add
+        return "uid={4732996039}&password={BP_02BO6SU8K59}" #Added
     else:
-        return "uid={4732995018}&password={BP_5R114R91NVN}" #Add
+        return "uid={4732995018}&password={BP_5R114R91NVN}" #Added
 
 # ===================== ENCRYPT UID =====================
 def Encrypt_ID(x):
